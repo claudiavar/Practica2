@@ -190,7 +190,10 @@ footer p {
         width: 90%;
         text-align: justify;
     }
-
+img{
+    width: 80%;
+    height: auto;
+}
     .img-nosotros {
         margin-left: 32px;
         display: flex;
@@ -216,11 +219,7 @@ footer p {
         display: flex;
         flex-direction: column;
     }
-    .div-contacto img {
-        width: 80%;
-        height: auto;
-    }
-
+    
     footer {
         width: 100%;
     }
