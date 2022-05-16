@@ -170,30 +170,38 @@ footer p {
 }
 
 @media only screen and (max-width:600px) {
-    body {
-        width: 100%;
+    header{
+        display: flex;
+        flex-direction: column;
     }
-
     .logo {
         font-weight: 700;
         font-size: 36px;
+        align-self:flex-start;
+        margin-bottom: 10px;
     }
-
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
     section p {
-        width: 100%;
+        width: 90%;
+        text-align: justify;
     }
 
     .img-nosotros {
         margin-left: 32px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
     .img-servicios {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
@@ -203,7 +211,11 @@ footer p {
         justify-content: space-around;
         flex-wrap: wrap;
     }
-
+    
+    .div-contacto{
+        display: flex;
+        flex-direction: column;
+    }
     .div-contacto img {
         width: 80%;
         height: auto;
