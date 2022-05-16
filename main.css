@@ -45,26 +45,15 @@ nav a:hover {
     font-weight: 700;
 }
 
-.titulo {
-    display: flex;
-    align-items: center;
-    margin-bottom: 18px;
-}
-
-.pipe {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #87119A;
-    font-size: 52px;
-    font-weight: 800;
-    margin-left: 36px;
-}
-
 h2 {
     font-family: Roboto, sans-serif;
     color: #87119A;
     font-size: 28px;
     margin-left: 23px;
-    margin-top: 30px;  
+    margin-top: 30px;
+    font-weight: 700;
+    border-left: solid 8px #87119A;
+    padding-left: 30px;
 }
 
 section p {
@@ -76,6 +65,7 @@ section p {
     margin-left: 36px;
     width: 1351px;
     font-weight: 400;
+    margin-top: 23px;
     margin-bottom: 12px;
 }
 
@@ -94,7 +84,7 @@ section p {
 }
 
 .servicios {
-    margin-top:36px;
+    margin-top: 36px;
     ;
 }
 
@@ -109,7 +99,7 @@ section p {
     margin: 45px;
     width: 410px;
     height: 251px;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 .img-portafolio {
@@ -178,155 +168,49 @@ footer p {
 .autor {
     color: #87119A;
 }
-@media only screen and (max-width:600px){
-    header {
-        justify-content: center;
-        align-items: center;
+
+@media only screen and (max-width:600px) {
+    body {
+        width: 100%;
     }
+
     .logo {
         font-weight: 700;
         font-size: 36px;
-        margin: 0;        
     }
-      
-    nav a:hover {
-        color: #87119A;
-        text-decoration: underline;
-        font-weight: 700;
-    }
-    
-    .titulo {
-        display: flex;
-        align-items: center;
-        margin-bottom: 18px;
-    }
-    
-    .pipe {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #87119A;
-        font-size: 52px;
-        font-weight: 800;
-        margin-left: 36px;
-    }
-    
-    h2 {
-        font-family: Roboto, sans-serif;
-        color: #87119A;
-        font-size: 28px;
-        margin-left: 23px;
-        margin-top: 30px;  
-    }
-    
+
     section p {
-        font-family: Roboto;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 32px;
-        color: #414141;
-        margin-left: 36px;
-        width: 1351px;
-        font-weight: 400;
-        margin-bottom: 12px;
+        width: 100%;
     }
-    
+
     .img-nosotros {
         margin-left: 32px;
-        display: flex;
-    }
-    
-    .img-nosotros img {
-        width: 410;
-        height: 251;
-        margin-top: 30px;
-        margin-right: 22px;
-        border-radius: 8px;
-        filter: drop-shadow(1px 1px 10px gray);
-    }
-    
-    .servicios {
-        margin-top:36px;
-        ;
-    }
-    
-    .img-servicios {
-        width: 1300px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    
-    .img-servicios img {
-        margin: 45px;
-        width: 410px;
-        height: 251px;
-        border-radius: 8px; 
+
+    .img-servicios {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    
+
     .img-portafolio {
-        width: 1300px;
+        width: 100%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    
-    .img-portafolio img {
-        width: 282px;
-        height: 251px;
-        border-radius: 8px;
-        margin-top: 50px;
-        margin-left: 36px;
-    }
-    
-    .contacto {
-        margin-top: 60px;
-    }
-    
-    .div-contacto {
-        display: flex;
-        margin-bottom: 340px;
-    }
-    
+
     .div-contacto img {
-        width: 892px;
-        height: 545px;
-        margin-top: 36px;
-        margin-left: 36px;
-    }
-    
-    .div-contacto div {
-        display: flex;
-        flex-direction: column;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        margin-top: 60px;
-        margin-left: 35px;
-    }
-    
-    .div-contacto div span {
-        margin-top: 20px;
-    }
-    
-    footer {
-        background-color: #9ECEFA;
-        height: 61px;
-        font-family: Roboto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .foot {
-        margin-left: 41px
-    }
-    
-    footer p {
-        margin-right: 35px;
-    }
-    
-    .autor {
-        color: #87119A;
+        width: 80%;
+        height: auto;
     }
 
-    
+    footer {
+        width: 100%;
+    }
+
 }
