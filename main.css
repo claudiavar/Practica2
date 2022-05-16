@@ -152,6 +152,7 @@ footer {
     height: 61px;
     width: 100%;
     font-family: Roboto;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,6 +174,7 @@ footer p {
     header {
         display: flex;
         flex-direction: column;
+        width: auto;
     }
 
     .logo {
@@ -184,6 +186,7 @@ footer p {
 
     nav ul {
         display: flex;
+        flex-wrap: wrap;
         list-style-type: none;
         margin-right: 0px;
         margin-bottom: 10px;
