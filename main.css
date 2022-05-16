@@ -225,12 +225,12 @@ footer p {
     }
 
     .img-servicios img {
-        width: auto;
+        width: 70%;
         height: auto;
     }
 
     .img-portafolio {
-        width: 100%;
+        width: 70%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
