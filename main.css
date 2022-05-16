@@ -8,6 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .logo {
@@ -159,6 +160,7 @@ section p {
 footer {
     background-color: #9ECEFA;
     height: 61px;
+    width: 100%;
     font-family: Roboto;
     display: flex;
     justify-content: space-between;
