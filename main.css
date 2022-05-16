@@ -170,30 +170,43 @@ footer p {
 }
 
 @media only screen and (max-width:600px) {
-    header{
+    header {
         display: flex;
         flex-direction: column;
     }
+
     .logo {
         font-weight: 700;
         font-size: 36px;
-        align-self:flex-start;
+        align-self: flex-start;
         margin-bottom: 10px;
     }
+
     nav ul {
         display: flex;
         list-style-type: none;
         margin-right: 0px;
         margin-bottom: 10px;
     }
+
+    nav a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 18px;
+        color: #707070;
+    }
+   
     section p {
         width: 90%;
         text-align: justify;
     }
-img{
-    width: 80%;
-    height: auto;
-}
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
     .img-nosotros {
         margin-left: 32px;
         display: flex;
@@ -214,12 +227,12 @@ img{
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    
-    .div-contacto{
+
+    .div-contacto {
         display: flex;
         flex-direction: column;
     }
-    
+
     footer {
         width: 100%;
     }
