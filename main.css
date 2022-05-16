@@ -208,32 +208,32 @@ footer p {
     .img-nosotros {
         margin-left: 32px;
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .img-nosotros img {
         width: auto;
         height: auto;
+        overflow: hidden;
     }
 
     .img-servicios {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
     .img-servicios img {
-        width: 70%;
+        width: auto;
         height: auto;
+        overflow: hidden;
     }
 
     .img-portafolio {
-        width: 70%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        width: 50%;
+        margin-left: 20%;        
     }
 
     .div-contacto {
@@ -244,6 +244,7 @@ footer p {
     .div-contacto img {
         width: 90%;
         height: auto;
+        overflow: hidden;
     }
 
     footer {
