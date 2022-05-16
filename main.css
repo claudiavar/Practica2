@@ -199,15 +199,10 @@ footer p {
         font-size: 18px;
         color: #707070;
     }
-   
+
     section p {
         width: 90%;
         text-align: justify;
-    }
-
-    img {
-        width: 80%;
-        height: auto;
     }
 
     .img-nosotros {
@@ -217,11 +212,21 @@ footer p {
         flex-wrap: wrap;
     }
 
+    .img-nosotros img {
+        width: auto;
+        height: auto;
+    }
+
     .img-servicios {
         width: 100%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+
+    .img-servicios img {
+        width: auto;
+        height: auto;
     }
 
     .img-portafolio {
@@ -234,6 +239,11 @@ footer p {
     .div-contacto {
         display: flex;
         flex-direction: column;
+    }
+
+    .div-contacto img {
+        width: 90%;
+        height: auto;
     }
 
     footer {
