@@ -201,7 +201,7 @@ footer p {
     }
 
     section p {
-        width: 90%;
+        width: 85%;
         text-align: justify;
     }
 
@@ -233,7 +233,7 @@ footer p {
 
     .img-portafolio {
         width: 50%;
-        margin-left: 20%;        
+        margin-left: 22%;        
     }
 
     .div-contacto {
@@ -246,7 +246,13 @@ footer p {
         height: auto;
         overflow: hidden;
     }
-
+    .foot {
+        margin-left: 10px
+    }
+    
+    footer p {
+        margin-right: 10px;
+    }
     footer {
         width: 100%;
         font-size: 12px;
